@@ -37,7 +37,7 @@ const intervalId = setInterval(function () {
   for (let letter of letters){
     letter.style.color= randomRGB()
   };
-},1000)
+},800)
 
 
 document.addEventListener('mousemove', function (e) {
